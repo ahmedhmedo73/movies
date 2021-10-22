@@ -1,0 +1,15 @@
+body {
+    font-family: 'segeo ui light';
+}
+
+
+/* .test {
+    width: 200px;
+    height: 200px;
+    background-color: #09c;
+} */
+
+.img-item {
+    float: left;
+    cursor: pointer;
+}
