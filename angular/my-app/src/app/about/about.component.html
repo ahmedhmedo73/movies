@@ -1,1 +1,21 @@
 <p>about works!</p>
+
+<table *ngIf="aboutUsers.length > 0 " class="table w-75 m-auto text-center">
+    <thead>
+        <th>name</th>
+        <th>age</th>
+        <th>gender</th>
+        <th>salary</th>
+        <th>date of birth</th>
+    </thead>
+    <tbody>
+        <tr *ngFor="let user of aboutUsers ; let i = index">
+            <td>{{i}}</td>
+            <td>{{user.name}}</td>
+            <td>{{user.age}}</td>
+            <td>{{user.gernder}}</td>
+            <td>{{user.salary}}</td>
+            <td>{{user.dateOfBirth}}</td>
+        </tr>
+    </tbody>
+</table>

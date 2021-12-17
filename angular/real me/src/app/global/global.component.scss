@@ -1,0 +1,103 @@
+.slider {
+    position: relative;
+    height: 80vh;
+    margin-top: 120px;
+}
+
+.caption1 {
+    color: white;
+    a {
+        color: white;
+        border: 1px solid white;
+        &:hover {
+            color: black;
+            background-color: white;
+        }
+    }
+}
+
+.caption2 {
+    position: absolute;
+    top: 150px;
+    right: 130px;
+    text-align: center;
+    p {
+        margin-bottom: 2rem;
+    }
+}
+
+.caption3 {
+    position: absolute;
+    top: 150px;
+    left: 220px;
+    text-align: center;
+    h2 {
+        margin-bottom: 30px;
+    }
+    p {
+        margin-top: 30px;
+    }
+}
+
+.learnMore {
+    border: 1px solid black;
+    text-decoration: none;
+    padding: 10px 20px;
+    color: black;
+    &:hover {
+        background-color: black;
+        color: white;
+    }
+    transition: color .5s,
+    background-color .5s;
+}
+
+.content {
+    background-color: #f4f4f5;
+    padding-top: 50px;
+    h2 {
+        text-align: center;
+        color: #616162;
+        margin-bottom: 40px;
+    }
+    .caption {
+        display: inline-block;
+        text-align: center;
+        margin-left: 50px;
+    }
+    .col-md-5 {
+        background-color: white;
+        width: 550px;
+        padding: 50px;
+        height: 400px;
+        margin-bottom: 20px;
+    }
+}
+
+.dare {
+    background-image: url('../../assets/sea.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    text-align: center;
+    h2 {
+        color: white;
+        margin-bottom: 50px;
+    }
+    a {
+        color: white;
+        border: 1px white solid;
+        padding: 15px 40px;
+        &:hover {
+            color: black;
+            background-color: white;
+        }
+    }
+}
+
+.icons {
+    text-align: center;
+    .col-md-3 {
+        padding: 50px 0px;
+    }
+}
