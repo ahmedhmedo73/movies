@@ -1,6 +1,5 @@
 import { Component, Input, OnInit } from '@angular/core';
 import { MoviesService } from '../movies.service';
-import { OwlOptions } from 'ngx-owl-carousel-o';
 
 
 @Component({
@@ -24,8 +23,9 @@ export class HomeComponent implements OnInit {
       this.trendingPerson= data.results.slice(0,10);
     })
   }
-
+  
   ngOnInit(): void {
   }
-
+  
+  x:any;
 }
